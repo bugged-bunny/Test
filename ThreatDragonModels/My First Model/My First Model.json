@@ -10,7 +10,148 @@
       {
         "title": "test",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 416,
+                "y": 22
+              },
+              "angle": 0,
+              "id": "7635976b-bd86-4096-9d88-a1f4fcf51a3d",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Sales process"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 111,
+                "y": 104
+              },
+              "angle": 0,
+              "id": "cc78a85d-f2e6-40ab-bda2-3165635c6d53",
+              "z": 2,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "Sending over HTTP",
+                  "type": "Spoofing"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Customer"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 511,
+                "y": 351
+              },
+              "angle": 0,
+              "id": "2d211bdf-3706-49f4-92b2-e34c7d6dd6b2",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Large dB"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "cc78a85d-f2e6-40ab-bda2-3165635c6d53"
+              },
+              "target": {
+                "x": 420,
+                "y": 97
+              },
+              "vertices": [
+                {
+                  "x": 331,
+                  "y": 117
+                },
+                {
+                  "x": 375,
+                  "y": 133
+                }
+              ],
+              "id": "3b5e4ea5-5905-4ebc-a2ac-2bb2f246a78e",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4496239396256408,
+                    "offset": 35.00841641697502
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "1a send transacation",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 862
+        }
       }
     ],
     "reviewer": "Holman"
