@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "My First Model",
+    "owner": "Chris",
+    "description": "My first threat model using threat dragon."
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "Holman"
+  }
+}
