@@ -20,8 +20,8 @@
                 "height": 100
               },
               "position": {
-                "x": 416,
-                "y": 22
+                "x": 397,
+                "y": 45
               },
               "angle": 0,
               "id": "7635976b-bd86-4096-9d88-a1f4fcf51a3d",
@@ -80,8 +80,8 @@
                 "height": 80
               },
               "position": {
-                "x": 511,
-                "y": 351
+                "x": 452,
+                "y": 256
               },
               "angle": 0,
               "id": "2d211bdf-3706-49f4-92b2-e34c7d6dd6b2",
@@ -100,51 +100,29 @@
               }
             },
             {
-              "type": "tm.Flow",
+              "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "id": "cc78a85d-f2e6-40ab-bda2-3165635c6d53"
+                "x": 482,
+                "y": 6
               },
               "target": {
-                "x": 420,
-                "y": 97
+                "x": 605,
+                "y": 391
               },
               "vertices": [
                 {
-                  "x": 331,
-                  "y": 117
+                  "x": 272,
+                  "y": 123
                 },
                 {
-                  "x": 375,
-                  "y": 133
+                  "x": 281,
+                  "y": 323
                 }
               ],
-              "id": "3b5e4ea5-5905-4ebc-a2ac-2bb2f246a78e",
-              "labels": [
-                {
-                  "position": {
-                    "distance": 0.4496239396256408,
-                    "offset": 35.00841641697502
-                  },
-                  "attrs": {
-                    "text": {
-                      "text": "1a send transacation",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 4,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
+              "id": "d567dc1a-b0c8-4931-a492-5d7f94876115",
+              "z": 5,
+              "attrs": {}
             }
           ]
         },
